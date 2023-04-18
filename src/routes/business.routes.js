@@ -4,7 +4,7 @@ import {
     createBusiness,
     getBusinessById,
     addProduct,
-} from "../controllers/business.controller";
+} from "../controllers/business.controller.js";
 
 const router = Router();
 

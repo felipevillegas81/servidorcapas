@@ -1,5 +1,5 @@
 import express from 'express'
-import usersRouters from './routes/user.routes.js'
+import usersRouters from './routes/users.routes.js'
 import ordersRoutes from './routes/orders.routes.js'
 import businessRoutes from './routes/business.routes.js'
 
