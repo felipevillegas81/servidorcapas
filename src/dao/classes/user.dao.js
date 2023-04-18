@@ -1,6 +1,6 @@
 import userModel from '../models/user.model.js'
 
-export default class User {
+export default class user {
     getUsers = async () => {
         try {
             const users = await userModel.find()
@@ -11,7 +11,7 @@ export default class User {
         }
     }
 
-    getUsersById = async (id) => {
+    getUserById = async (id) => {
         try {
             const user = await userModel.findOne({ id: id })
             return user

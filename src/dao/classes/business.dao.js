@@ -13,7 +13,7 @@ export default class Business {
 
     getBusinessById = async (id) => {
         try{
-            const business = await businessModel.findOne({ id: id})
+            const business = await businessModel.findOne({ id: id })
             return business
         } catch (error) {
             console.error(error)
