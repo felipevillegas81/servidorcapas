@@ -1,9 +1,9 @@
 import { Router } from "express";
 import {
-    getBusiness,
-    createBusiness,
-    getBusinessById,
-    addProduct,
+  addProduct,
+  createBusiness,
+  getBusiness,
+  getBusinessById,
 } from "../controllers/business.controller.js";
 
 const router = Router();

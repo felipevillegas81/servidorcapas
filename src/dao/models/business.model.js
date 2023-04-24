@@ -1,10 +1,9 @@
-import { Schema, model } from "mongoose"
+import { Schema, model } from 'mongoose';
 
-const businessShema = new Schema({
-    name: String,
-    products: []
+const businessSchema = new Schema({
+  name: String,
+  products: []
 })
 
-const businessModel = model('business', businessShema)
-
-export default businessModel
+const businessModel = model('business', businessSchema);
+export default businessModel;
